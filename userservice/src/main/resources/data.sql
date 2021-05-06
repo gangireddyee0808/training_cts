@@ -1,0 +1,1 @@
+insert into user_details(user_id, username, password, phone) values(1001, "phani", "phani123", 7953453172);
