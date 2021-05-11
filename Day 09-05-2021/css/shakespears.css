@@ -47,11 +47,15 @@ a.henrylink {
     /*padding: 2px; border: 1px solid #000;*/
  }
 
-.special{
+/*.special{
 
     background-color: green;
 } 
 
 .year{
     font-weight: bold;
+}*/
+
+.afterlink{
+    background-color: green;
 }

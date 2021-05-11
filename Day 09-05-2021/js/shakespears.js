@@ -28,16 +28,8 @@ $(() => {
     // for highlight only the necessary elements 
     //$('td:contains(Henry)').parent().find('td:eq(0)') .addClass('highlight').end().find('td:eq(2)') .addClass('highlight');
 
-    //$('td:contains(Henry)') .nextAll() .addBack() .addClass('highlight');
+    $('td:contains(Henry)') .nextAll() .addBack() .addClass('highlight');
 
-    $('#selected-plays > li > ul > li')
-    .addClass('special');
-    $('td:nth-child(3)')
-    .addClass("year");
-    $('td:contains(Tragedy)')
-    .eq(0)
-    .parent()
-    .addClass('special');
 });
 
 
