@@ -5,32 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
-        crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
     <title>Bootstrap Sandbox</title>
-    <style>
-        .row-hl {
-            background: #f4f4f4;
-            height: 150px;
-        }
-
-        .item-hl {
-            border: 1px solid #333;
-        }
-    </style>
 </head>
 
 <body>
     <header>
-        <h1 class="display-3 text-center my-4">Auto Margins & Wrapping</h1>
+        <h1 class="display-3 text-center my-4">Text Alignment & Display</h1>
         <div class="container">
             <div class="row">
                 <div class="col-md-3">
                     <div class="dropdown">
                         <button class="btn btn-primary btn-block dropdown-toggle" type="button" data-toggle="dropdown">
-                            2: Utilities
-                        </button>
+              2: Utilities
+            </button>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="2_2_basic_typography.html">2.2 Basic Typography</a>
                             <a class="dropdown-item" href="2_3_text_alignment_display.html">2.3 Text Alignment & Display</a>
@@ -45,8 +34,8 @@
                 <div class="col-md-3">
                     <div class="dropdown">
                         <button class="btn btn-success btn-block dropdown-toggle" type="button" data-toggle="dropdown">
-                            3: CSS Components
-                        </button>
+              3: CSS Components
+            </button>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="3_2_buttons.html">3.2 Buttons</a>
                             <a class="dropdown-item" href="3_3_navbar.html">3.3 Navbar</a>
@@ -64,8 +53,8 @@
                 <div class="col-md-3">
                     <div class="dropdown">
                         <button class="btn btn-warning btn-block dropdown-toggle" type="button" data-toggle="dropdown">
-                            4: Grid & Flexbox
-                        </button>
+              4: Grid & Flexbox
+            </button>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="4_2_grid_system.html">4.2 Grid System</a>
                             <a class="dropdown-item" href="4_3_grid_alignment.html">4.3 Grid Alignment</a>
@@ -77,8 +66,8 @@
                 <div class="col-md-3">
                     <div class="dropdown">
                         <button class="btn btn-danger btn-block dropdown-toggle" type="button" data-toggle="dropdown">
-                            5: JavaScript Widgets
-                        </button>
+              5: JavaScript Widgets
+            </button>
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="5_2_carousel.html">5.2 Carousel</a>
                             <a class="dropdown-item" href="5_3_collapse.html">5.3 Collapse</a>
@@ -97,109 +86,79 @@
     <div class="container">
         <!--#####################START HERE######################-->
 
-        <!-- MR-AUTO -->
-        <div class="d-flex row-hl">
-            <div class="p-2 item-hl">Flex item</div>
-            <div class="p-2 item-hl">Flex item</div>
-            <div class="p-2 item-hl">Flex item</div>
+        <!-- JUSTIFY -->
+        <p class="text-justify mt-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae asperiores dolorem accusamus dolor eligendi, unde adipisci a odio, quas aperiam tempora earum delectus magnam quia veritatis in! Natus quibusdam dolores architecto magni rem! Error
+            repellat esse dolorem dolore neque odit rem non accusamus eligendi ab nesciunt dicta voluptatibus velit, vel obcaecati quisquam optio reiciendis soluta tempora, voluptatum sapiente eos? Explicabo provident sit commodi blanditiis assumenda
+            dolor ex aliquid aut beatae porro necessitatibus eos, neque distinctio non amet nemo et! Ipsum, dolorum quis at perferendis corporis iure aliquid illo, deserunt impedit, quod nam! Molestias atque voluptatem numquam veritatis ex mollitia eveniet.</p>
+
+        <br>
+        <br>
+
+        <!-- ALIGNMENT -->
+        <p class="text-left mt-5">Text aligned left</p>
+        <p class="text-center">Text aligned center</p>
+        <p class="text-right">Text aligned right</p>
+
+        <!-- RESPONSIVE ALIGN -->
+        <p class="text-sm-right mt-5">Right aligned on small or larger</p>
+        <p class="text-md-right">Right aligned on medium or larger</p>
+        <p class="text-lg-right">Right aligned on large or larger</p>
+        <p class="text-xl-right">Right aligned on xl or larger</p>
+
+        <p class="text-sm-left mt-5">Left aligned text on small or larger</p>
+        <p class="text-md-left">Left aligned text on medium or larger</p>
+        <p class="text-lg-left">Left aligned text on large or wider</p>
+        <p class="text-xl-left">Left aligned text on extra large or wider</p>
+
+        <p class="text-sm-center mt-5">Center aligned text on small or larger</p>
+        <p class="text-md-center">Center aligned text on medium or larger</p>
+        <p class="text-lg-center">Center aligned text on large or wider</p>
+        <p class="text-xl-center">Center aligned text on extra large or wider</p>
+
+        <br>
+        <br>
+
+        <!-- VERTICAL ALIGNMENT -->
+        <span class="align-baseline ">baseline</span>
+        <span class="align-top">top</span>
+        <span class="align-bottom">bottom</span>
+        <span class="align-middle">middle</span>
+        <span class="align-text-top">text-top</span>
+        <span class="align-text-bottom">text-bottom</span>
+
+        <br>
+        <br>
+
+        <!-- TURN BLOCK TO INLINE -->
+        <h1 class="d-inline bg-success ">Hello</h1>
+        <h1 class="d-inline bg-success">Goodbye</h1>
+
+        <br>
+        <br>
+        <br>
+
+        <!-- TURN INLINE TO BLOCK -->
+        <span class="d-block bg-primary text-white">Block</span>
+
+        <br>
+        <br>
+
+        <!-- INLINE BLOCK -->
+        <div class="d-inline-block bg-danger text-white">
+            <h3>Hello</h3>
+            This is inline
         </div>
-
-        <br>
-        <br>
-
-        <!-- ML-AUTO -->
-        <div class="d-flex row-hl">
-            <div class="p-2 item-hl">Flex item</div>
-            <div class="p-2 item-hl">Flex item</div>
-            <div class="p-2 item-hl">Flex item</div>
+        <div class="d-inline-block bg-secondary text-white">
+            <h3>Hello</h3>
+            This is inline
         </div>
-
-        <br>
-        <br>
-
-        <!-- MB-AUTO -->
-        <div class="d-flex flex-column row-hl">
-            <div class="p-2 item-hl">Flex item</div>
-            <div class="p-2 item-hl">Flex item</div>
-            <div class="p-2 item-hl">Flex item</div>
-        </div>
-
-        <br>
-        <br>
-
-        <!-- MT-AUTO -->
-        <div class="d-flex flex-column row-hl">
-            <div class="p-2 item-hl">Flex item</div>
-            <div class="p-2 item-hl">Flex item</div>
-            <div class="p-2 item-hl">Flex item</div>
-        </div>
-
-        <br>
-        <br>
-
-        <!-- NO WRAP -->
-        <div class="d-flex row-hl">
-            <div class="p-2 item-hl">Flex item</div>
-            <div class="p-2 item-hl">Flex item</div>
-            <div class="p-2 item-hl">Flex item</div>
-            <div class="p-2 item-hl">Flex item</div>
-            <div class="p-2 item-hl">Flex item</div>
-            <div class="p-2 item-hl">Flex item</div>
-            <div class="p-2 item-hl">Flex item</div>
-            <div class="p-2 item-hl">Flex item</div>
-            <div class="p-2 item-hl">Flex item</div>
-            <div class="p-2 item-hl">Flex item</div>
-            <div class="p-2 item-hl">Flex item</div>
-            <div class="p-2 item-hl">Flex item</div>
-            <div class="p-2 item-hl">Flex item</div>
-            <div class="p-2 item-hl">Flex item</div>
-            <div class="p-2 item-hl">Flex item</div>
-
-        </div>
-
-        <br>
-        <br>
-
-        <!-- WRAP -->
-        <div class="d-flex row-hl">
-            <div class="p-2 item-hl">Flex item</div>
-            <div class="p-2 item-hl">Flex item</div>
-            <div class="p-2 item-hl">Flex item</div>
-            <div class="p-2 item-hl">Flex item</div>
-            <div class="p-2 item-hl">Flex item</div>
-            <div class="p-2 item-hl">Flex item</div>
-            <div class="p-2 item-hl">Flex item</div>
-            <div class="p-2 item-hl">Flex item</div>
-            <div class="p-2 item-hl">Flex item</div>
-            <div class="p-2 item-hl">Flex item</div>
-            <div class="p-2 item-hl">Flex item</div>
-            <div class="p-2 item-hl">Flex item</div>
-            <div class="p-2 item-hl">Flex item</div>
-            <div class="p-2 item-hl">Flex item</div>
-            <div class="p-2 item-hl">Flex item</div>
-        </div>
-
-        <br>
-        <br>
-
-        <!-- ORDERING -->
-        <div class="d-flex row-hl">
-            <div class="p-2 item-hl">First flex item</div>
-            <div class="p-2 item-hl">Second flex item</div>
-            <div class="p-2 item-hl">Third flex item</div>
-        </div>
-
-
     </div>
 
     <div style="margin-top:500px;"></div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 </body>
 
 </html>

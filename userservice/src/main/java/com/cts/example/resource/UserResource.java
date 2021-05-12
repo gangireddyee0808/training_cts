@@ -50,6 +50,7 @@ public class UserResource {
             return  userRepository.findByUsername(username);
                 
     }
+   
     
     @DeleteMapping("/users/{id}")
     public void deleteById(@PathVariable Long id) {
